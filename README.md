@@ -9,7 +9,7 @@
 
 `src/js/app.js`
 
-`src/css/app.style`
+`src/css/app.styl`
 
 # Objectives
 - List all reviews in the data model.
