@@ -1,4 +1,4 @@
-var app = require('yeah-steve');
+var app = require('thor-spa-2');
 var path = require('path');
 
 app.run({
