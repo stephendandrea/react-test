@@ -12,12 +12,12 @@ class App extends React.Component {
 
   componentWillMount = () => this.setState({ ...model });
 
-	render() {
+  render() {
 
     const { product = {}, reviews = [] } = this.state;
     const review = reviews[0] || {} ;
 
-		return !!this.state && (
+    return !!this.state && (
       
       <div className="review-component">
 
@@ -47,8 +47,8 @@ class App extends React.Component {
         </div>
 
       </div>
-		);
-	}
+    );
+  }
 
 }
 
